@@ -1,7 +1,88 @@
-body
-{
-    background-image: url(https://devfolio-prod.s3.ap-south-1.amazonaws.com/hackathons/ba2b3586ab9b4adf9542ca7757c5c553/projects/63d05d93a59d4d8fa0804d97985087ec/d7874679-bd47-4092-a610-f870036afdf9.jpeg);
-    background-repeat: no-repeat;
-    background-size: 990pt;
-    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+
+body 
+{
+    background-image: url(https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg);
+}
+.form-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 4px;
+    padding: 70px;
+    width: 450px;
+    transform: translate(-50%, -50%);
+    background:black;
+}
+.form-wrapper h2 {
+    color:white;
+    font-size: 2rem;
+}
+
+.form-wrapper form {
+    margin: 25px 0 65px;
+}
+
+form .form-control {
+    height: 50px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.form-control input {
+    height: 100%;
+    width: 100%;
+    background: #333;
+    border-radius: 4px;
+    color: gainsboro;
+    font-size: 1rem;
+    padding: 0 20px;
+}
+
+.form-control input:is(:focus, :valid) {
+    background: #444;
+    padding: 16px 20px 0;
+}
+
+.form-control label {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    pointer-events: none;
+    color: #8c8c8c;
+    transition: all 0.1s ease;
+}
+
+.form-control input:is(:focus, :valid)~label {
+    font-size: 0.75rem;
+    transform: translateY(-130%);
+}
+
+form button {
+    width: 100%;
+    padding: 16px 0;
+    font-size: 1rem;
+    background: red;
+    color:white;
+    font-weight: 500;
+    border-radius: 4px;
+   
+   
+    margin: 25px 0 10px;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+
+form button:hover {
+    background:red;
+}
+
+
+
