@@ -1,0 +1,21 @@
+GML=>SGML=>1992-HTML
+WWWC(World Wide Web Consoritum)-1994-1996-CERN->
+Cascating Style Sheets(CSS)
+Current Version of CSS is CSS3
+CSS is used for styling/desigined  of the web page
+CSS can be implemented in HTML using three ways
+inline css: in the line of an element we can write "style" as a property 
+internal CSS: usually all css with selector can be incloded "style" element
+usually syntax
+<style>
+     selector
+     {
+        property: value;
+     }
+</style>
+external css: you can write css in external filr with extension css and link that file in HTML
+<link rel="stylesheet" href ="link"/>
+preferences:
+inline>internal>external
+id>class>tagname
+! important can bring anything
