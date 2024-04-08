@@ -1,0 +1,16 @@
+display property:
+Display is used to display certain elements in a container 
+display a block --> will make an element or elements in a container blok 
+display: inline: will make an element or elements in a container inline 
+inline elements cannot have hight or width 
+to make elements inline 
+
+
+
+
+
+flex deals with two axes
+main and cross
+main: where all elements are arrenged 
+cross: where each element is arrenged
+flex is mainly used when you want to show elements in one direction
