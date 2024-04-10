@@ -10,7 +10,7 @@ body
     color: rgb(225, 229, 7);
     font-size: large;
     font-family: cursive;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 .link
 {
@@ -21,7 +21,7 @@ body
     color: rgb(232, 16, 16);
     font-size: xx-large;
     padding-left: 50px;
-    padding-right: 400px;
+    padding-right: 800px;
     padding-top: 0px;
     
 }
