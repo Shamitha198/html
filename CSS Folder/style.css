@@ -1,0 +1,109 @@
+body
+{
+    background-image: url(https://e0.pxfuel.com/wallpapers/263/88/desktop-wallpaper-background-blue-texture-only.jpg);
+}
+:root 
+  {
+    --lighting-color: rgb(212, 227, 83);
+  }
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  ul {
+    list-style: none;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--lighting-color);
+    color: black;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  nav ul {
+    display: flex;
+    gap: 1rem;
+  }
+  nav li {
+    font-size: 1.8rem;
+    border-bottom: 0.4rem transparent solid;
+    transition: 0.3s ease-in-out;
+  }
+  nav li:hover {
+    border-bottom: 0.4rem var(--secondary-color) solid;
+    transition: 0.3s ease-in-out;
+  }
+  .logo {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  #main {
+    background: var(--dark-color);
+    padding: 4rem 0;
+    border-bottom: 4px solid var(--lighting-color);
+    max-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: grid;
+    place-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+    font-size: 5rem;
+    font-size: 4rem;
+    font-weight: bold;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */ /* Adjust as needed */
+    animation: typing 5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      
+    }
+  }
+  #Desigin{
+    background: var(--darker-color);
+  }
+  
+  #project h2 {
+    font-size: 6rem;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .project_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+  }
+  .grid_item {
+    display: grid;
+    place-items: center;
+  }  

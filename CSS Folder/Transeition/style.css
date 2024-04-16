@@ -1,0 +1,72 @@
+.main 
+{
+    display: flex;
+   
+    gap: 20px;
+ 
+}
+.box
+{
+    background-color: red;
+    height: 100px ;
+    width: 100px;
+    border-radius: 50%;
+    animation: fall-down 5s ease-in 1s infinite alternate;
+    animation-fill-mode: both;
+}
+@keyframes fall-down
+{
+   0% {
+     position: relative;
+     top: 0px;
+
+    }
+    100%{
+        
+    }
+}
+.box:hover
+{   
+    transform: scale(1.05);
+    background-color: blue;
+    height: 200px;
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: 5s;
+    transition-delay: 2s;
+    transition-timing-function: ease;
+    transition: all 5s ease 2s;
+    transform: rotate(45deg);
+}
+.boxx
+{
+    transition: all 3s easa;
+}
+.boxx:hover
+{
+    transform: translate(100px,-50px);
+    transform: all 3s ease;
+}
+.box
+{
+   animation-name: shami;
+   animation-duration: 10s;
+   animation-timing-function: ease;
+   animation-direction: alternate-reverse;
+}
+@keyframes
+{
+    form
+    {
+        height: 100px; width: 100px ;background-color: blue;margin: 10px;
+    }
+    to
+    {
+        height: 50px; width: 50px; background-color: red; margin: 100px;
+        border-radius: 50%;
+        transform: translateX(100px);
+    }
+    
+
+
+}

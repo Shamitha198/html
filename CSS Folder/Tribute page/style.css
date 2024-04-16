@@ -1,0 +1,55 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.head
+{
+  margin-bottom: 1rem;
+}
+
+.container {
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210803/pngtree-watercolor-texture-indian-flag-background-image_756556.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    border: 5px solid black;
+  }
+  .image_container
+  {
+    display: flex;
+    
+  }
+  .shami_h1
+  {
+    display: flex;
+    padding-top: 100px;
+  }
+  .content
+  {
+      max-width: 1000px;
+      margin: 0 auto;
+  }
+  .top_section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .top_section h1 {
+    display: flex;
+    padding-top: 200px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: uppercase;
+  }
+  .top_section h4 {
+    font-size: 30px;
+    text-align: end;
+  }
+  .about li
+  {
+     margin-left: 15px;
+  }  
