@@ -1,0 +1,109 @@
+:root{
+    --primary:#fb4d62;
+    --secondary:orange;
+}
+body
+{
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+/* headder css starts hear*/
+header
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+header img
+{
+    background: ;
+}
+header ul
+{
+    display: flex;
+    color-scheme: white;
+}
+ul li
+{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#banner
+{
+    display: flex;
+    gap: 30px;
+}
+.slides
+{
+    display: flex;
+    gap: 30px;
+    flex-basis: 1280px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    text-overflow: hidden;
+}
+@keyframes basic 
+{
+    100%{
+            background-color: #fb4d62;
+            transform: translateX(-100px);
+    }
+}
+#banner p
+{
+    line-height: 1.5;
+}
+.buttons
+{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+.buttons:nth-child(2)
+{
+    background-color: white;
+}
+body
+{
+    box-sizing: border-box;
+    font-family: Releway, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+button
+{
+    background-color: var(--primary);
+    color: white;
+    padding: 10px 20px ;
+    border-radius: 30px;
+
+}
+#about
+{
+    text-align: center;
+    text-indent: 20px;
+
+}
+#about h2
+{
+    font-size: 46px;
+    margin-top: 0px;
+    padding-top: 0px;
+    text-shadow: 3px 5px ;
+}
+#projects
+{
+    display: grid;
+    grid-template-columns: repeat(3 auto);
+    grid: 20px;
+}
+.card img
+{
+    width: 30%;
+}
